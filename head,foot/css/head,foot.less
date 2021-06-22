@@ -1,0 +1,162 @@
+
+// 设置版心
+.box(){
+    width: 1080px;
+    margin: 0 auto;
+}
+//footer的颜色
+//footer的背景颜色
+@foot_bc:#505050;
+//footer的文字颜色
+@foot_fc:#818181;
+
+*{
+    margin: 0;
+    padding: 0;
+    vertical-align:bottom;
+}
+header{
+    width: 100%;
+    padding: 10px 0 10px 0;
+    box-shadow: 0 0 5px #ccc;
+
+    .head_box{
+        .box();
+        overflow: hidden;
+        .logo{
+            float: left;
+            margin-right: 20px;
+            img{
+                width: 130px;
+                height: 50px;
+            }
+        }
+        nav{
+            float: left;
+            margin-top: 16px;
+            overflow: hidden;
+            >ul{
+                list-style: none;
+                float: left;
+                overflow: hidden;
+                .nav_li{
+                    float: left;
+                    a{
+                        text-decoration: none;
+                        font-size: 16px;
+                        color: #000;
+                        display: inline-block;
+                        width: 100px;
+                        height: 34px;
+                        text-align: center;
+                        line-height: 34px;
+                    }
+                }
+                .nav_li:hover a{
+                    color: red;
+                }
+            }
+        }
+        .head_r{
+            float: right;
+            margin-top: 4px;
+            div{
+                float: left;
+            }
+            .search{
+                margin-top: 8px;
+                div{
+                    border: 1px solid #ccc;
+                    height: 26px;
+                    border-radius: 20px;
+                    padding-left: 10px;
+                    input{
+                        border: none;
+                        outline: none;
+                        background: none;
+                        margin-top: 4px;
+                    }
+                }
+                .search_img{
+                    margin-left: 10px;
+                }
+            }
+            .regist{
+                border: 1px solid red;
+                border-radius: 3px;
+                padding: 10px;
+                margin-left: 20px;
+                a{
+                    color: red;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+footer{
+    width: 100%;
+    padding: 40px 0 20px 0;
+    background: @foot_bc;
+    .foot_box{
+        .box();
+        overflow: hidden;
+        .foot_rwm{
+            float: left;
+            >img{
+                float: left;
+            }
+            >div{
+                float: right;
+                width: 135px;
+                margin-left: 30px;
+                img{
+                    margin-bottom: 20px;
+                }
+                p{
+                    color: @foot_fc;
+                    font-size: 13px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+        .foot_lis{
+            float: left;
+            margin-left: 30px;
+            overflow: hidden;
+            dl{
+                float: left;
+                margin-right: 15px;
+            }
+
+            dt{
+                margin-bottom: 20px;
+                height: 21px;
+                a{
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: #ccc;
+                    text-decoration: none;
+                }
+            }
+            dd{
+                a{
+                    font-size: 14px;
+                    text-decoration: none;
+                    color: @foot_fc;
+                }
+            }
+
+        }
+    }
+    .foot_last{
+        clear: both;
+        text-align: center;
+        padding-top: 70px;
+        a{
+            font-size: 14px;
+            color: @foot_fc;
+            text-decoration: none;
+        }
+    }
+}
