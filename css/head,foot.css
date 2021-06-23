@@ -107,7 +107,7 @@ footer .foot_box .foot_rwm > div img {
   margin-bottom: 20px;
 }
 footer .foot_box .foot_rwm > div p {
-  color: #818181;
+  color: #a3a3a3;
   font-size: 13px;
   margin-bottom: 10px;
 }
@@ -133,7 +133,7 @@ footer .foot_box .foot_lis dt a {
 footer .foot_box .foot_lis dd a {
   font-size: 14px;
   text-decoration: none;
-  color: #818181;
+  color: #a3a3a3;
 }
 footer .foot_last {
   clear: both;
@@ -142,6 +142,6 @@ footer .foot_last {
 }
 footer .foot_last a {
   font-size: 14px;
-  color: #818181;
+  color: #a3a3a3;
   text-decoration: none;
 }
