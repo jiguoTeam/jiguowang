@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-06-23 10:58:56
- * @LastEditTime: 2021-06-23 22:53:27
+ * @LastEditTime: 2021-06-24 10:36:08
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \jiguowang\js\playhot.js
@@ -19,7 +19,7 @@ $(function() {
                     console.log(index);
                     // repace 替换IP地址
                     var data0 = data[0][index];
-                    var Isrc = data0.img.replace(/192.168.1.13/g, 'localhost');
+                    var Isrc = data0.img.replace(/192.168.1.64/g, 'localhost');
                     // console.log(data0);
                     // console.log(Isrc);
                     str += `

@@ -1,3 +1,11 @@
+/*
+ * @Author: your name
+ * @Date: 2021-06-24 09:09:42
+ * @LastEditTime: 2021-06-24 09:22:53
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: \jiguowang\js\report_hot.js
+ */
 $(function() {
     $.ajax({
         url: 'http://localhost:3000/report/hot',
@@ -10,7 +18,7 @@ $(function() {
             $.each(data, function(index, ele) {
                 console.log(index);
                 var src = data[index].img;
-                var Isrc = src.replace(/192.168.1.13/g, 'localhost');
+                var Isrc = src.replace(/192.168.1.64/g, 'localhost');
                 console.log(Isrc);
                 if (index > 4 && index < 11) {
                     str += `

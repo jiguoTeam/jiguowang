@@ -19,7 +19,7 @@ $(function() {
                 console.log(index);
                 // repace 替换IP地址
                 var data0 = data[0][index];
-                var Isrc = data0.img.replace(/192.168.1.13/g, 'localhost');
+                var Isrc = data0.img.replace(/192.168.1.64/g, 'localhost');
                 // console.log(data0);
                 // console.log(Isrc);
                 str += `

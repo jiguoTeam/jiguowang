@@ -67,9 +67,15 @@ a {
   font-size: 17px;
 }
 .play div .play_new ul {
-  width: 540px;
+  width: 408px;
   overflow: hidden;
   margin: 0 auto;
+}
+.play div .play_new ul .ping {
+  border-bottom: 4px solid #fd5337;
+}
+.play div .play_new ul .ping a {
+  color: #e64c2d;
 }
 .play div .play_new ul li {
   float: left;
@@ -87,10 +93,11 @@ a {
 .reimg .imgxin {
   width: 1080px;
   margin: 0 auto;
+  padding-bottom: 40px;
+  background-color: #f7f7f7;
 }
 .reimg .imgxin ul {
   overflow: hidden;
-  margin-top: 6px;
   margin-left: 10px ;
 }
 .reimg .imgxin ul li {
@@ -149,18 +156,4 @@ a {
   width: 125px;
   height: 12px;
   padding-bottom: 15px;
-}
-.reimg .more {
-  text-align: center;
-  margin: 0 auto;
-}
-.reimg .more img {
-  width: 18px;
-  height: 8px;
-  padding-bottom: 3px;
-}
-.reimg .more span {
-  margin-left: 8px;
-  font-size: 15px;
-  color: red;
 }

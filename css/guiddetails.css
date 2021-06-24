@@ -101,11 +101,14 @@ nav .adide_box aside div .txt_botm2 {
   font-size: 12px;
   color: #b0b2af;
 }
-nav .adide_box article ul {
+nav .adide_box .uldiv {
+  padding-left: 106px;
+}
+nav .adide_box .uldiv ul {
   overflow: hidden;
   padding-left: 106px;
 }
-nav .adide_box article ul li {
+nav .adide_box .uldiv ul li {
   float: left;
   width: 135px;
   height: 110px;
@@ -116,14 +119,45 @@ nav .adide_box article ul li {
   font-size: 12px;
   color: #a1a4a5;
 }
-nav .adide_box article ul li img {
+nav .adide_box .uldiv ul li img {
   margin-top: -10px;
   width: 30px;
   height: 25px;
 }
-nav .adide_box article ul li .x_text {
-  margin-top: -17px;
+nav .adide_box .uldiv ul li .x_text {
+  margin: 0;
+  padding: 0;
 }
-nav .adide_box article ul .border_rno {
+nav .adide_box .uldiv ul .border_rno {
   border-right: none;
+}
+nav .adide_box .uldiv ul .border_rno .backtu1 {
+  background: url(../img/图片/css/img/xinRedo.png) no-repeat 55px 40px;
+}
+nav .adide_box .uldiv ul .border_rno .backtu1 img {
+  margin-top: -10px;
+  width: 26px;
+  height: 26px;
+  visibility: hidden;
+}
+nav .adide_box .uldiv ul .border_rno .backtu1:hover {
+  background: none;
+}
+nav .adide_box .uldiv ul .border_rno .backtu1:hover img {
+  visibility: visible;
+}
+nav .adide_box .uldiv ul .border_rno .backtu2 {
+  background: url(../img/图片/css/img/share_yj1.png) no-repeat 55px 40px;
+}
+nav .adide_box .uldiv ul .border_rno .backtu2 img {
+  margin-top: -10px;
+  width: 26px;
+  height: 26px;
+  visibility: hidden;
+}
+nav .adide_box .uldiv ul .border_rno .backtu2:hover {
+  background: none;
+}
+nav .adide_box .uldiv ul .border_rno .backtu2:hover img {
+  visibility: visible;
 }

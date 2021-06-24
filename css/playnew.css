@@ -67,9 +67,15 @@ a {
   font-size: 17px;
 }
 .play div .play_new ul {
-  width: 540px;
+  width: 408px;
   overflow: hidden;
   margin: 0 auto;
+}
+.play div .play_new ul .new {
+  border-bottom: 4px solid #fd5337;
+}
+.play div .play_new ul .new a {
+  color: #e64c2d;
 }
 .play div .play_new ul li {
   float: left;
