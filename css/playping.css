@@ -1,0 +1,166 @@
+body,
+button,
+dd,
+dl,
+dt,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+legend,
+li,
+ol,
+p,
+select,
+table,
+td,
+textarea,
+th,
+ul {
+  margin: 0;
+  padding: 0;
+}
+fieldset,
+img {
+  border: 0;
+}
+ol,
+ul {
+  list-style: none;
+}
+address,
+em {
+  font-style: normal;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+table {
+  border-collapse: collapse;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.play {
+  width: 100%;
+}
+.play div {
+  width: 1080px;
+  margin: 0 auto;
+}
+.play div .div_title {
+  padding: 40px 0px 40px 0px;
+  font-size: 40px;
+  font-weight: 250;
+  text-align: center;
+}
+.play div .play_new {
+  font-size: 17px;
+}
+.play div .play_new ul {
+  width: 540px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.play div .play_new ul li {
+  float: left;
+  width: 136px;
+  text-align: center;
+  padding-bottom: 12px;
+}
+.play div .play_new ul li a {
+  color: #acaab8;
+}
+.reimg {
+  width: 100%;
+  background-color: #f7f7f7;
+}
+.reimg .imgxin {
+  width: 1080px;
+  margin: 0 auto;
+}
+.reimg .imgxin ul {
+  overflow: hidden;
+  margin-top: 6px;
+  margin-left: 10px ;
+}
+.reimg .imgxin ul li {
+  float: left;
+  margin: 20px 40px 20px 0px;
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+  width: 1000px;
+  background-color: #fff;
+}
+.reimg .imgxin ul li .xia {
+  margin-top: 20px;
+}
+.reimg .imgxin ul li .xia .hongdain {
+  width: 8px;
+  height: 25px;
+  border-left: 3px solid #fa5444;
+}
+.reimg .imgxin ul li .xia .heng {
+  margin-left: 25px;
+}
+.reimg .imgxin ul li ul {
+  margin-top: 40px;
+  margin-left: 30px;
+}
+.reimg .imgxin ul li ul li {
+  width: 106px;
+  border: 0;
+  font-size: 12px;
+  color: #ccc;
+  text-align: center;
+  margin-top: 0;
+}
+.reimg .imgxin ul li ul li img {
+  width: 95px;
+  height: 95px;
+  margin-bottom: 15px;
+}
+.reimg .imgxin ul li .likn {
+  border-bottom: 1px dotted #e7e7e7;
+}
+.reimg .imgxin ul li .likn_txt {
+  margin-left: 30px;
+  width: 826px;
+  color: #ccc;
+  padding-bottom: 40px;
+}
+.reimg .imgxin ul li .likn_txt li {
+  width: 85px;
+  margin: 0px;
+  padding: 0px;
+  line-height: 25px;
+  margin-right: 40px;
+}
+.reimg .imgxin ul li .likn_txt li .one {
+  width: 125px;
+  height: 12px;
+  padding-bottom: 15px;
+}
+.reimg .more {
+  text-align: center;
+  margin: 0 auto;
+}
+.reimg .more img {
+  width: 18px;
+  height: 8px;
+  padding-bottom: 3px;
+}
+.reimg .more span {
+  margin-left: 8px;
+  font-size: 15px;
+  color: red;
+}

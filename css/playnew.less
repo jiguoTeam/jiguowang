@@ -99,18 +99,22 @@ a{
 }
 .reimg{
    width: 100%;
-   // height: 1140px;
+   // height: 1240px;
    background-color: #f7f7f7;
+//    新加的
+overflow: hidden;
    .imgxin{
        width: 1080px;
        margin: 0 auto;
        height:500px;
-       ul{ 
-           overflow: hidden;
-           height: 222px;
-           margin-top: 6px;
-           margin-left:10px ;
-           li{
+
+    //    这个是css啦
+       .hot_box{ 
+            overflow: hidden;
+        //    height: 222px;
+            padding-top: 26px;
+             margin-left:10px ;
+           .hot_li{
            float: left;
            margin:20px 40px 20px 0px;
            border: 1px solid #eaeaea;
@@ -118,13 +122,51 @@ a{
            width: 220px;
            height: 222px;
            background-color: #fff;
+
+           .hot_li_img{
+            width: 221px;
+            border-radius: 5px 5px 0px 0px;
+            height: 130px;
+           
+           }
+           .li_text{
+               margin: 10px 0px 0px 10px;
+               font-size: 12px;
+               font-weight: 500px;
+            //    line-height: 25px;
+               .hot_cc{
+                   padding-top: 6px;
+                   font-size: 12px;
+                   font-weight: 500px;
+                   color: #bfb9b4;
+               }
+               .pri{
+                   font-size: 13px;
+                   color: #fe5942;
+                  
+               }
+               .text_left{
+                   float: right;
+                   padding-right: 10px;
+                  .img_top{
+                       margin-top: -5px;
+                   } 
+               } 
+               
+           }
        }
 
    }
+//    一直到这的是的没有错
 }
    .more{
+       margin-top: 20px;
        text-align: center;
        margin: 0 auto;
+       margin-top: 90px;
+    //    margin-bottom: 53px;
+       width: 100%;
+       height: 50px;
        img{
            width: 18px;
            height: 8px;

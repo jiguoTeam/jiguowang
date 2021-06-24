@@ -1,0 +1,129 @@
+/* 主题部分 */
+ul li {
+  list-style: none;
+}
+nav {
+  background-color: #f7f7f7;
+}
+nav .nav_tit {
+  padding: 20px 0px 25px 0px;
+  width: 1080px;
+  text-align: center;
+  margin: 0 auto;
+}
+nav .nav_tit ul {
+  overflow: hidden;
+}
+nav .nav_tit ul li {
+  float: left;
+  list-style-type: none;
+  text-align: center;
+}
+nav .nav_tit ul li a {
+  text-align: center;
+  text-decoration: none;
+  color: #b3b3b5;
+}
+nav .nav_tit ul li a span {
+  padding-right: 5px;
+}
+nav .adide_box {
+  width: 1080px;
+  text-align: center;
+  margin: 0 auto;
+  overflow: hidden;
+}
+nav .adide_box aside {
+  border-radius: 5px;
+  text-align: center;
+  width: 701px;
+  background-color: #FFF;
+  float: left;
+}
+nav .adide_box aside .bag_txt {
+  font-size: 25px;
+  font-weight: 600px;
+  padding: 37px 25px 0px 25px;
+  padding-bottom: 30px;
+}
+nav .adide_box aside .bag_txttu {
+  text-align: left;
+  padding: 0px 25px 25px 25px;
+}
+nav .adide_box aside .bag_txttu .bag_le {
+  width: 100%;
+  float: left;
+}
+nav .adide_box aside .bag_txttu .bag_le .susu_txt {
+  padding-left: 10px;
+  margin: 0 auto;
+}
+nav .adide_box aside .bag_txttu .bag_le .time {
+  float: right;
+}
+nav .adide_box aside .linkli {
+  width: 93%;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 25px;
+}
+nav .adide_box aside div {
+  text-align: left;
+  padding: 0px 25px;
+  font-size: 14px;
+  line-height: 25px;
+}
+nav .adide_box aside div .weight_txt {
+  font-size: 18px;
+  text-align: center;
+}
+nav .adide_box aside div .img_tu {
+  padding-bottom: 30px;
+}
+nav .adide_box aside div .txt_botm {
+  padding-bottom: 30px;
+}
+nav .adide_box aside div .weight_txt2 {
+  font-size: 18px;
+  text-align: center;
+  padding: 30px 0px 25px 0px;
+}
+nav .adide_box aside div .le15 {
+  font-size: 15px;
+  font-weight: 300;
+}
+nav .adide_box aside div .txt_botm3 {
+  padding-top: 30px;
+  font-size: 12px;
+  color: #b0b2af;
+}
+nav .adide_box aside div .txt_botm2 {
+  padding-bottom: 40px;
+  font-size: 12px;
+  color: #b0b2af;
+}
+nav .adide_box article ul {
+  overflow: hidden;
+  padding-left: 106px;
+}
+nav .adide_box article ul li {
+  float: left;
+  width: 135px;
+  height: 110px;
+  background-color: #FFF;
+  border: 1px solid rgba(235, 235, 235);
+  border-radius: 5px ;
+  line-height: 65px;
+  font-size: 12px;
+  color: #a1a4a5;
+}
+nav .adide_box article ul li img {
+  margin-top: -10px;
+  width: 30px;
+  height: 25px;
+}
+nav .adide_box article ul li .x_text {
+  margin-top: -17px;
+}
+nav .adide_box article ul .border_rno {
+  border-right: none;
+}
