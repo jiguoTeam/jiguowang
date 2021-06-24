@@ -1,4 +1,5 @@
 * {
+<<<<<<< HEAD
   margin: 0;
   padding: 0;
   vertical-align: bottom;
@@ -145,3 +146,183 @@ footer .foot_last a {
   color: #818181;
   text-decoration: none;
 }
+=======
+    margin: 0;
+    padding: 0;
+    vertical-align: bottom;
+}
+
+header {
+    width: 100%;
+    padding: 10px 0 10px 0;
+    box-shadow: 0 0 5px #ccc;
+}
+
+header .head_box {
+    width: 1080px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header .head_box .logo {
+    float: left;
+    margin-right: 20px;
+}
+
+header .head_box .logo img {
+    width: 130px;
+    height: 50px;
+}
+
+header .head_box nav {
+    float: left;
+    margin-top: 16px;
+    overflow: hidden;
+}
+
+header .head_box nav>ul {
+    list-style: none;
+    float: left;
+    overflow: hidden;
+}
+
+header .head_box nav>ul .nav_li {
+    float: left;
+}
+
+header .head_box nav>ul .nav_li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+    display: inline-block;
+    width: 100px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    background-color: #fff;
+}
+
+header .head_box nav>ul .nav_li:hover a {
+    color: red;
+}
+
+header .head_box .head_r {
+    float: right;
+    margin-top: 4px;
+}
+
+header .head_box .head_r div {
+    float: left;
+}
+
+header .head_box .head_r .search {
+    margin-top: 8px;
+}
+
+header .head_box .head_r .search div {
+    border: 1px solid #ccc;
+    height: 26px;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+header .head_box .head_r .search div input {
+    border: none;
+    outline: none;
+    background: none;
+    margin-top: 4px;
+}
+
+header .head_box .head_r .search .search_img {
+    margin-left: 10px;
+}
+
+header .head_box .head_r .regist {
+    border: 1px solid red;
+    border-radius: 3px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+header .head_box .head_r .regist a {
+    color: red;
+    text-decoration: none;
+}
+
+footer {
+    width: 100%;
+    padding: 40px 0 20px 0;
+    background: #505050;
+}
+
+footer .foot_box {
+    width: 1080px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+footer .foot_box .foot_rwm {
+    float: left;
+}
+
+footer .foot_box .foot_rwm>img {
+    float: left;
+}
+
+footer .foot_box .foot_rwm>div {
+    float: right;
+    width: 135px;
+    margin-left: 30px;
+}
+
+footer .foot_box .foot_rwm>div img {
+    margin-bottom: 20px;
+}
+
+footer .foot_box .foot_rwm>div p {
+    color: #a3a3a3;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+footer .foot_box .foot_lis {
+    float: left;
+    margin-left: 30px;
+    overflow: hidden;
+}
+
+footer .foot_box .foot_lis dl {
+    float: left;
+    margin-right: 15px;
+}
+
+footer .foot_box .foot_lis dt {
+    margin-bottom: 20px;
+    height: 21px;
+}
+
+footer .foot_box .foot_lis dt a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ccc;
+    text-decoration: none;
+}
+
+footer .foot_box .foot_lis dd a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #a3a3a3;
+}
+
+footer .foot_last {
+    clear: both;
+    text-align: center;
+    padding-top: 70px;
+}
+
+footer .foot_last a {
+    font-size: 14px;
+    color: #a3a3a3;
+    text-decoration: none;
+}
+>>>>>>> a09c641a6912d35936b76356998d0739add59800

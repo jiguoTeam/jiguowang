@@ -1,0 +1,377 @@
+.box {
+  width: 1080px;
+  margin: 0 auto;
+}
+section {
+  overflow: hidden;
+}
+section .banner_box {
+  width: 1080px;
+  margin: 0 auto;
+  position: relative;
+  height: 300px;
+}
+section .banner_box .banner {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+section .banner_box .promotion {
+  float: right;
+  margin-top: 45px;
+  text-align: right;
+}
+section .banner_box .promotion .pmtion_t {
+  font-size: 30px;
+  color: #fff;
+}
+section .banner_box .promotion .pmtion_tm {
+  margin: 20px 0;
+}
+section .banner_box .promotion .pmtion_tm span {
+  margin-left: 10px;
+  display: inline-block;
+  padding: 0 10px;
+  height: 35px;
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  line-height: 35px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #fff;
+}
+section .banner_box .promotion > span {
+  display: block;
+  font-size: 17px;
+  color: #fff;
+}
+section .banner_box .promotion > a {
+  display: inline-block;
+  width: 240px;
+  height: 50px;
+  background: #fe5341;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 23px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+section .hot_box {
+  width: 1080px;
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+section .hot_box > h2 {
+  font-size: 20px;
+  padding: 25px 0;
+}
+section .hot_box .lunbo_box {
+  overflow: hidden;
+  height: 300px;
+  position: relative;
+}
+section .hot_box .lunbo_box .lb_left {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+section .hot_box .lunbo_box .lunbo {
+  float: left;
+  position: absolute;
+  width: 1008px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+section .hot_box .lunbo_box .lunbo ul {
+  overflow: hidden;
+}
+section .hot_box .lunbo_box .lunbo ul li {
+  float: left;
+  list-style: none;
+  width: 220px;
+  margin: 0 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+}
+section .hot_box .lunbo_box .lunbo ul li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding-bottom: 15px;
+}
+section .hot_box .lunbo_box .lunbo ul li a > img {
+  width: 220px;
+}
+section .hot_box .lunbo_box .lunbo ul li a .lb_title {
+  font-size: 17px;
+  font-weight: bold;
+  color: #000;
+  margin-top: 10px;
+}
+section .hot_box .lunbo_box .lunbo ul li a div {
+  margin: 5px 0 10px 0;
+}
+section .hot_box .lunbo_box .lunbo ul li a div span {
+  border: 1px solid #f65340;
+  border-radius: 5px;
+  padding: 3px;
+  font-size: 13px;
+  margin: 0 5px;
+  color: #f65340;
+}
+section .hot_box .lunbo_box .lunbo ul li a > p {
+  color: #000;
+}
+section .hot_box .lunbo_box .lunbo ul li a > p span {
+  color: #f65340;
+}
+section .hot_box .lunbo_box .lunbo ul li a > span {
+  display: block;
+  font-size: 15px;
+  margin-top: 5px;
+  color: #f65340;
+}
+section .hot_box .lunbo_box .lb_right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+section .report {
+  width: 100%;
+  background: #f7f7f7;
+}
+section .report .report_box {
+  width: 1080px;
+  margin: 0 auto;
+}
+section .report .report_box .report_head {
+  overflow: hidden;
+}
+section .report .report_box .report_head h2 {
+  font-size: 20px;
+  padding: 25px 0;
+  float: left;
+}
+section .report .report_box .report_head div {
+  margin-top: 30px;
+  float: right;
+  font-size: 15px;
+  color: #f65340;
+}
+section .report .report_box .report_head div a {
+  color: #f65340;
+  text-decoration: none;
+}
+section .report .report_box .report_head div img {
+  float: right;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+section .report .report_box .report_nr .report_ul {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 1008px;
+}
+section .report .report_box .report_nr .report_ul .report_li {
+  float: left;
+  list-style: none;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 230px;
+  margin: 0 15px 20px 15px;
+}
+section .report .report_box .report_nr .report_ul .report_li .report_a {
+  display: block;
+  width: 220px;
+  height: 250px;
+  text-decoration: none;
+  position: relative;
+}
+section .report .report_box .report_nr .report_ul .report_li .report_a .report_img {
+  height: 130px;
+}
+section .report .report_box .report_nr .report_ul .report_li .report_a .report_js {
+  color: #4d524c;
+  font-size: 13px;
+  padding: 10px 10px;
+}
+section .report .report_box .report_nr .report_ul .report_li .report_a .yh {
+  width: 200px;
+  padding: 10px;
+  position: absolute;
+  bottom: 25px;
+}
+section .report .report_box .report_nr .report_ul .report_li .report_a .yh .report_uname {
+  float: left;
+  color: #a3a3a3;
+  font-size: 12px;
+  overflow: hidden;
+}
+section .report .report_box .report_nr .report_ul .report_li .report_a .yh .report_uname span {
+  margin-top: 6px;
+  float: left;
+  margin-right: 3px;
+  display: block;
+  width: 5px;
+  height: 5px;
+  background: #a3a3a3;
+  border-radius: 50%;
+}
+section .report .report_box .report_nr .report_ul .report_li .report_a .yh > div {
+  line-height: 14px;
+  font-size: 12px;
+  color: #a3a3a3;
+  float: right;
+}
+section .sp_title {
+  width: 100%;
+}
+section .sp_title .sp_box {
+  width: 1080px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+section .sp_title .sp_box .sp_head {
+  overflow: hidden;
+}
+section .sp_title .sp_box .sp_head h2 {
+  font-size: 20px;
+  padding: 25px 0;
+  float: left;
+}
+section .sp_title .sp_box .sp_head div {
+  margin-top: 30px;
+  float: right;
+  font-size: 15px;
+  color: #f65340;
+}
+section .sp_title .sp_box .sp_head div a {
+  color: #f65340;
+  text-decoration: none;
+}
+section .sp_title .sp_box .sp_head div img {
+  float: right;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.sp_ul {
+  width: 1008px;
+  margin: 0 auto;
+}
+.sp_ul .sp_li {
+  float: left;
+  list-style: none;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0 15px 20px 15px;
+  width: 220px;
+}
+.sp_ul .sp_li a {
+  border: 1px solid #dbdfe0;
+  border-bottom: 0;
+  height: 230px;
+  display: block;
+  text-decoration: none;
+  overflow: hidden;
+  position: relative;
+}
+.sp_ul .sp_li a .sp_img {
+  height: 130px;
+}
+.sp_ul .sp_li a p {
+  color: #4d524c;
+  font-size: 13px;
+  padding: 10px 10px;
+}
+.sp_ul .sp_li a div {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+.sp_ul .sp_li a div span {
+  line-height: 14px;
+  font-size: 12px;
+  color: #a3a3a3;
+}
+.sp_ul .sp_li .sp_bkg {
+  float: left;
+}
+.kw_ul {
+  width: 1008px;
+  margin: 0 auto;
+}
+.kw_ul .kw_li {
+  float: left;
+  list-style: none;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0 15px 20px 15px;
+  width: 220px;
+  border: 1px solid #dbdfe0;
+}
+.kw_ul .kw_li a {
+  height: 250px;
+  display: block;
+  text-decoration: none;
+  overflow: hidden;
+  position: relative;
+}
+.kw_ul .kw_li a > img {
+  height: 130px;
+}
+.kw_ul .kw_li a .kw_description {
+  color: #4d524c;
+  font-size: 15px;
+  font-weight: bolder;
+  padding: 10px 10px 0px;
+}
+.kw_ul .kw_li a .kw_text {
+  color: #4d524c;
+  font-size: 13px;
+  padding: 10px 10px 0px;
+}
+.kw_ul .kw_li a .kw_bom {
+  position: absolute;
+  overflow: hidden;
+  padding: 0 10px;
+  bottom: 10px;
+  width: 200px;
+}
+.kw_ul .kw_li a .kw_bom .kw_price {
+  color: #f65340;
+  font-size: 15px;
+  float: left;
+}
+.kw_ul .kw_li a .kw_bom .kw_pj {
+  float: right;
+  overflow: hidden;
+}
+.kw_ul .kw_li a .kw_bom .kw_pj img {
+  float: left;
+  margin-top: 3px;
+  margin: 3px 5px;
+}
+.kw_ul .kw_li a .kw_bom .kw_pj span {
+  font-size: 12px;
+  float: left;
+}
+.jz {
+  width: 125px;
+  display: block;
+  text-align: center;
+  margin: 30px auto 50px ;
+  color: #f65340;
+  font-size: 16px;
+  line-height: 12px;
+  text-decoration: none;
+}
+.jz img {
+  margin-left: 5px;
+}
