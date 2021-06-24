@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-06-23 16:01:39
- * @LastEditTime: 2021-06-23 23:34:38
+ * @LastEditTime: 2021-06-24 09:17:00
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \jiguowang\js\guidnew.js
@@ -18,7 +18,7 @@ $(function() {
                 // console.log(index);
                 var suju = data[index]; //这个是每个数据
                 console.log(suju);
-                var repla = suju.img.replace(/192.168.1.64/g, '192.168.31.100'); //图片被改过的数据
+                var repla = suju.img.replace(/192.168.1.13/g, 'localhost'); //图片被改过的数据
                 console.log(repla);
                 str += `
                 <!-- 每一个li -->
