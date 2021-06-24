@@ -18,8 +18,9 @@ $(function() {
             $.each(data, function(index, ele) {
                 console.log(index);
                 var src = data[index].img;
-                var Isrc = src.replace(/192.168.1.64/g, 'localhost');
-                console.log(Isrc);
+                var Isrc = src.replace(/192.168.1.13/g, 'localhost');
+                // console.log(src);
+                // console.log(Isrc);
                 if (index > 4 && index < 11) {
                     str += `
                     <li class="all_li">
