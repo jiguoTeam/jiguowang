@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-06-23 16:01:39
- * @LastEditTime: 2021-06-24 09:23:09
+ * @LastEditTime: 2021-06-24 13:07:08
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \jiguowang\js\guidnew.js
@@ -30,8 +30,10 @@ $(function() {
                         <p class="suju_txt">${suju.text}</p>
                         <span class='text_left'>
                             <img class="xin" src="../img/图片/css/img/xin.png" alt="">
-                                ${suju.like}  
-                            <img class='xin' src="../img/图片/css/img/reply.png" alt="">${suju.words}
+                               <span class="margni_b"> ${suju.like}</span>  
+                            <img class='xin' src="../img/图片/css/img/reply.png" alt="">
+                            <span class='margni_b'>${suju.words}</span>
+                            
                         </$>
                   
                     </div>
