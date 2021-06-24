@@ -70,7 +70,7 @@ a {
   font-size: 17px;
 }
 .play div .play_new ul {
-  width: 540px;
+  width: 646px;
   overflow: hidden;
   margin: 0 auto;
 }
@@ -83,7 +83,7 @@ a {
 .play div .play_new li {
   margin-left: 153px;
   float: left;
-  width: 45px;
+  width: 114px;
   text-align: center;
   padding-bottom: 12px;
 }
@@ -142,6 +142,9 @@ a {
   color: #c6c6c6;
   float: right;
   padding-right: 10px;
+}
+.reimg .imgxin .hot_box .hot_li .hot_txt .text_left .margni_b {
+  font-size: 12px;
 }
 .reimg .imgxin .hot_box .hot_li .hot_txt .text_left .xin {
   padding-top: -5px;
